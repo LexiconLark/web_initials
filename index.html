@@ -45,51 +45,51 @@
                 <h2>Personal Website</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit consectetur at assumenda nihil aliquid sed rerum! Dolores in, ad numquam impedit eaque dicta quis rerum eum incidunt molestias aperiam vero, sequi, praesentium aliquid deleniti ab cupiditate. Placeat, voluptates adipisci repellat amet porro vitae vero quia aperiam repudiandae numquam. Nesciunt!</p>
                 <div class="links">
-                    <a href="#skills">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Skills</span>
+                    <a href="#projects">
+                        <i class="fa-solid fa-folder-closed"></i>
+                        <span>Projects</span>
                     </a>
 
-                    <a href="#ctf">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Skills</span>
+                    <a href="#about">
+                        <i class="fa-solid fa-user"></i>
+                        <span>About me</span>
                     </a>
 
                     <a href="#contact">
-                        <i class="fa-solid fa-code"></i>
+                        <i class="fa-solid fa-address-card"></i>
                         <span>Contact</span>
                     </a>
                 </div>
             </div>
             <div class="headshot">
-                <img src="https://avatars.githubusercontent.com/u/213094590?v=4" alt="Garit Taqwim">
+                <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/hero-headshot.webp" alt="Garit Taqwim">
             </div>
          </section>
 
         <!-- SECTION 2: Project -->
-         <section id="project" class="skills-section">
+         <section id="projects" class="projects-section">
             <h2>Projects</h2>
             <div class="text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed laudantium dignissimos cumque dolorum nobis et odio ipsum voluptatem beatae expedita quam minus eaque nulla ratione quo, placeat quod perferendis.
             </div>
 
             <div class="cells">
-                <div class="cell">
+                <div class="cell" data-modal="modal1">
                     <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp" alt="html logo">
-                    <span>HTML</span>
+                    <span>Personal Blog</span>
                 </div>
 
-                <div class="cell">
+                <div class="cell" data-modal="modal2">
                     <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp" alt="html logo">
-                    <span>HTML</span>
+                    <span>System Design Blog</span>
                 </div>
 
-                <div class="cell">
+                <div class="cell" data-modal="modal3">
                     <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp" alt="html logo">
-                    <span>HTML</span>
+                    <span>BrokeCode</span>
                 </div>
                 
-                <div class="cell">
+                <div class="cell" data-modal="modal4">
                     <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp" alt="html logo">
                     <span>HTML</span>
                 </div>
@@ -134,5 +134,94 @@
             </div>
          </section>
      </main>
+
+    <!--Modals-->
+    
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+                <h2>Personal Blog</h2>
+            <p>This is content about the Personal Blog project. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestias quas amet error id placeat.</p>
+            <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b">
+            <div class="project-showcase">
+                <a href="http://">
+                    <span>Open Project</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+                <h2>System Design Blog</h2>
+            <p>Details about the System Design Blog project. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime reiciendis impedit dignissimos unde voluptatem neque!</p>
+            <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b">
+            <div class="project-showcase">
+                <a href="http://">
+                    <span>Open Project</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+                <h2>BrokeCode</h2>
+            <p>Details about the BrokeCode project. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos totam nulla expedita corrupti delectus at?</p>
+
+            <div class="projects-grid">
+                <div class="project-image-wrapper">
+                    <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b">
+                </div>
+                <div class="project-image-wrapper">
+                    <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b">
+                </div>
+                <div class="project-image-wrapper">
+                    <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b">
+                </div>
+            </div>
+            <div class="project-showcase">
+                <a href="http://">
+                    <span>Open Project</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal4">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+                <h2>HTML</h2>
+            <p>Details about the HTML project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsa, pariatur expedita quam possimus hic.</p>
+            <div class="project-showcase">
+                <a href="http://">
+                    <span>Open Project</span>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+<script>
+  document.querySelectorAll('.cell').forEach(cell => {
+    cell.addEventListener('click', () => {
+      const modalId = cell.getAttribute('data-modal');
+      document.getElementById(modalId).style.display = 'block';
+    });
+  });
+
+  document.querySelectorAll('.modal .close').forEach(closeBtn => {
+    closeBtn.addEventListener('click', () => {
+      closeBtn.closest('.modal').style.display = 'none';
+    });
+  });
+
+  window.addEventListener('click', event => {
+    if (event.target.classList.contains('modal')) {
+      event.target.style.display = 'none';
+    }
+  });
+</script>
