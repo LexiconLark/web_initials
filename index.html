@@ -1,176 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Portofolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- NAVBAR -->
-     <nav>
-        <div class="left">
-            <a href="/">Garit Taqwim</a>
+    <nav>
+      <div class="left">
+        <a href="/">Garit Taqwim</a>
+      </div>
+      <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+
+        <a
+          href="http://stackoverflow.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-stack-overflow"></i>
+          <span>Stack Overflow</span>
+        </a>
+
+        <a href="http://dev.to" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-dev"></i>
+          <span>Dev</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- SECTION 1: Hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Personal Website</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+            velit consectetur at assumenda nihil aliquid sed rerum! Dolores in,
+            ad numquam impedit eaque dicta quis rerum eum incidunt molestias
+            aperiam vero, sequi, praesentium aliquid deleniti ab cupiditate.
+            Placeat, voluptates adipisci repellat amet porro vitae vero quia
+            aperiam repudiandae numquam. Nesciunt!
+          </p>
+          <div class="links">
+            <a href="#projects">
+              <i class="fa-solid fa-folder-closed"></i>
+              <span>Projects</span>
+            </a>
+
+            <a href="#about">
+              <i class="fa-solid fa-user"></i>
+              <span>About me</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-address-card"></i>
+              <span>Contact</span>
+            </a>
+          </div>
         </div>
-        <div class="right">
-            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-github"></i>
-                <span>Github</span>
-            </a>
-
-            <a href="http://stackoverflow.com" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-stack-overflow"></i>
-                <span>Stack Overflow</span>
-            </a>
-
-            <a href="http://dev.to" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-dev"></i>
-                <span>Dev</span>
-            </a>
+        <div class="headshot">
+          <img
+            src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/hero-headshot.webp"
+            alt="Garit Taqwim"
+          />
         </div>
-     </nav>
+      </section>
 
-     <main>
-        <!-- SECTION 1: Hero -->
-         <section class="hero-section">
-            <div class="text">
-                <h2>Personal Website</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit consectetur at assumenda nihil aliquid sed rerum! Dolores in, ad numquam impedit eaque dicta quis rerum eum incidunt molestias aperiam vero, sequi, praesentium aliquid deleniti ab cupiditate. Placeat, voluptates adipisci repellat amet porro vitae vero quia aperiam repudiandae numquam. Nesciunt!</p>
-                <div class="links">
-                    <a href="#projects">
-                        <i class="fa-solid fa-folder-closed"></i>
-                        <span>Projects</span>
-                    </a>
+      <!-- SECTION 2: Project -->
+      <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed
+          laudantium dignissimos cumque dolorum nobis et odio ipsum voluptatem
+          beatae expedita quam minus eaque nulla ratione quo, placeat quod
+          perferendis.
+        </div>
 
-                    <a href="#about">
-                        <i class="fa-solid fa-user"></i>
-                        <span>About me</span>
-                    </a>
+        <div class="cells">
+          <div class="cell" data-modal="modal1">
+            <img
+              src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp"
+              alt="html logo"
+            />
+            <span>BreakCode</span>
+          </div>
 
-                    <a href="#contact">
-                        <i class="fa-solid fa-address-card"></i>
-                        <span>Contact</span>
-                    </a>
-                </div>
-            </div>
-            <div class="headshot">
-                <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/hero-headshot.webp" alt="Garit Taqwim">
-            </div>
-         </section>
+          <div class="cell" data-modal="modal2">
+            <img
+              src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp"
+              alt="html logo"
+            />
+            <span>PulseFeed</span>
+          </div>
 
-        <!-- SECTION 2: Project -->
-         <section id="projects" class="projects-section">
-            <h2>Projects</h2>
-            <div class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed laudantium dignissimos cumque dolorum nobis et odio ipsum voluptatem beatae expedita quam minus eaque nulla ratione quo, placeat quod perferendis.
-            </div>
+          <div class="cell" data-modal="modal3">
+            <img
+              src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp"
+              alt="html logo"
+            />
+            <span>BuildLog</span>
+          </div>
 
-            <div class="cells">
-                <div class="cell" data-modal="modal1">
-                    <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp" alt="html logo">
-                    <span>Personal Blog</span>
-                </div>
+          <div class="cell" data-modal="modal4">
+            <img
+              src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp"
+              alt="html logo"
+            />
+            <span>MarketMind</span>
+          </div>
+        </div>
+      </section>
 
-                <div class="cell" data-modal="modal2">
-                    <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp" alt="html logo">
-                    <span>System Design Blog</span>
-                </div>
+      <!-- SECTION 3: About -->
+      <section id="about" class="about-section">
+        <h2>About</h2>
 
-                <div class="cell" data-modal="modal3">
-                    <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp" alt="html logo">
-                    <span>BrokeCode</span>
-                </div>
-                
-                <div class="cell" data-modal="modal4">
-                    <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/html-logo.webp" alt="html logo">
-                    <span>HTML</span>
-                </div>
-            </div>
-         </section>
-        
-        <!-- SECTION 3: About -->
-         <section id="about" class="about-section">
-            <h2>About</h2>
+        <div class="group">
+          <div class="person-details">
+            <img
+              src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/hero-headshot.webp"
+              alt="about"
+            />
+            <p>Garit Taqwim</p>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+          <div class="text">
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+            cum deserunt voluptas accusamus iure cupiditate nostrum eos libero,
+            non, fugit consequatur illum porro aliquid ullam, consectetur
+            explicabo! Aperiam aut eos tenetur, aliquid modi nihil nobis,
+            doloribus sed sequi, placeat iste quam quos. Illo nihil natus
+            eveniet, ab harum ut alias."
+          </div>
+        </div>
+      </section>
 
-            <div class="group">
-                <div class="person-details">
-                    <img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/master/images/hero-headshot.webp" alt="about">
-                    <p>Garit Taqwim</p>
-                    <p>Lorem ipsum dolor sit.</p>
-                </div>
-                <div class="text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi cum deserunt voluptas accusamus iure cupiditate nostrum eos libero, non, fugit consequatur illum porro aliquid ullam, consectetur explicabo! Aperiam aut eos tenetur, aliquid modi nihil nobis, doloribus sed sequi, placeat iste quam quos. Illo nihil natus eveniet, ab harum ut alias."</div>
-            </div>
-         </section>
+      <!-- SECTION 4: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
 
-        <!-- SECTION 4: Contact -->
-         <section id="contact" class="contact-section">
-            <h2>Contact</h2>
+        <div class="group">
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+            neque asperiores eveniet impedit vel minus voluptatibus magni?
+            Repudiandae omnis, nihil enim aliquid, sint quas rem repellendus
+            nostrum, pariatur illum fugiat! Accusantium non tenetur dolorum a.
+            Voluptas enim, fuga dolorum praesentium, quidem magnam eum placeat
+            asperiores deleniti corrupti non mollitia architecto.
+          </div>
 
-            <div class="group">
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil neque asperiores eveniet impedit vel minus voluptatibus magni? Repudiandae omnis, nihil enim aliquid, sint quas rem repellendus nostrum, pariatur illum fugiat! Accusantium non tenetur dolorum a. Voluptas enim, fuga dolorum praesentium, quidem magnam eum placeat asperiores deleniti corrupti non mollitia architecto.
-                </div>
+          <form
+            action="https://formsubmit.co/ahsanutgarit@gmail.com"
+            method="POST"
+          >
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
 
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
 
-                    <label for="email">Email</label>
-                    <input type="text" id="email">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="10" required></textarea>
 
-                    <label for="message">Message</label>
-                    <textarea id="message" cols="30" rows="10"></textarea>
-
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-         </section>
-     </main>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
 
     <!--Modals-->
-    
+
     <div class="modal" id="modal1">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-                <h2>Personal Blog</h2>
-            <p>This is content about the Personal Blog project. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestias quas amet error id placeat.</p>
-            <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b">
-            <div class="project-showcase">
-                <a href="http://">
-                    <span>Open Project</span>
-                </a>
-            </div>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>BreakCode</h2>
+        <p>
+          Blogpost for breaking the code, making it into separable piece,
+          analyzing the flow, and explain the concept and the flow in graph.
+        </p>
+        <img
+          src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b"
+        />
+        <div class="project-showcase">
+          <a href="http://">
+            <span>Open Project</span>
+          </a>
         </div>
+      </div>
     </div>
 
     <div class="modal" id="modal2">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-                <h2>System Design Blog</h2>
-            <p>Details about the System Design Blog project. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime reiciendis impedit dignissimos unde voluptatem neque!</p>
-            <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b">
-            <div class="project-showcase">
-                <a href="http://">
-                    <span>Open Project</span>
-                </a>
-            </div>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>PulseFeed</h2>
+        <p>
+          Blogpost for personal blog, discussing or showing personal opinion and
+          analysis through recent things happened in tech industries
+        </p>
+        <img
+          src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b"
+        />
+        <div class="project-showcase">
+          <a href="http://">
+            <span>Open Project</span>
+          </a>
         </div>
+      </div>
     </div>
 
     <div class="modal" id="modal3">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-                <h2>BrokeCode</h2>
-            <p>Details about the BrokeCode project. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos totam nulla expedita corrupti delectus at?</p>
-
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>BuildLog</h2>
+        <p>
+          Presenting projects that I made, based on the problems that I found.
+        </p>
+        <img
+          src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b"
+        />
+        <!--
             <div class="projects-grid">
                 <div class="project-image-wrapper">
                     <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b">
@@ -182,46 +253,53 @@
                     <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b">
                 </div>
             </div>
-            <div class="project-showcase">
-                <a href="http://">
-                    <span>Open Project</span>
-                </a>
-            </div>
+            *-->
+        <div class="project-showcase">
+          <a href="http://">
+            <span>Open Project</span>
+          </a>
         </div>
+      </div>
     </div>
 
     <div class="modal" id="modal4">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-                <h2>HTML</h2>
-            <p>Details about the HTML project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsa, pariatur expedita quam possimus hic.</p>
-            <div class="project-showcase">
-                <a href="http://">
-                    <span>Open Project</span>
-                </a>
-            </div>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>MarketMind</h2>
+        <p>
+          Analyze the recent business side in tech market / tech world. Based on
+          recent events or unique past events.
+        </p>
+        <img
+          src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b"
+        />
+        <div class="project-showcase">
+          <a href="http://">
+            <span>Open Project</span>
+          </a>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 <script>
-  document.querySelectorAll('.cell').forEach(cell => {
-    cell.addEventListener('click', () => {
-      const modalId = cell.getAttribute('data-modal');
-      document.getElementById(modalId).style.display = 'block';
+  document.querySelectorAll(".cell").forEach((cell) => {
+    cell.addEventListener("click", () => {
+      const modalId = cell.getAttribute("data-modal");
+      document.getElementById(modalId).style.display = "block";
     });
   });
 
-  document.querySelectorAll('.modal .close').forEach(closeBtn => {
-    closeBtn.addEventListener('click', () => {
-      closeBtn.closest('.modal').style.display = 'none';
+  document.querySelectorAll(".modal .close").forEach((closeBtn) => {
+    closeBtn.addEventListener("click", () => {
+      closeBtn.closest(".modal").style.display = "none";
     });
   });
 
-  window.addEventListener('click', event => {
-    if (event.target.classList.contains('modal')) {
-      event.target.style.display = 'none';
+  window.addEventListener("click", (event) => {
+    if (event.target.classList.contains("modal")) {
+      event.target.style.display = "none";
     }
   });
 </script>
